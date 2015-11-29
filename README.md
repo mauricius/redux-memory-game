@@ -1,4 +1,4 @@
-# [Redux Memory Game](http://mauricius.github.io/redux-memory-game)
+# Redux Memory Game
 
 Redux implementation of a memory game.
 
@@ -19,6 +19,10 @@ git clone https://github.com/mauricius/redux-memory-game .
 npm install
 npm start
 ```
+
+### Working Demo
+
+[demo](http://mauricius.github.io/redux-memory-game)
 
 ### Thanks
 
