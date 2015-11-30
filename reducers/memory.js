@@ -61,7 +61,12 @@ export default function memory(state = initialState, action) {
 
         case RESTART_GAME :
 
-            return initialState;
+            return {
+                round : 1,
+                guess1 : null,
+                guess2 : null,
+                cards : generateCards()
+            };
 
         default:
             return state;
