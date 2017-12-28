@@ -10,7 +10,7 @@
         "start": "node server.js",
         "test": "set NODE_ENV=test && mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
         "test:watch": "npm test -- --watch",
-        "build": "set NODE_ENV=production && webpack"
+        "build": "export NODE_ENV=production && webpack"
     },
     "repository": {
       "type": "git",
