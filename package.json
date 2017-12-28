@@ -3,7 +3,7 @@
         "node": "4.2.1"
     },
     "name": "redux-memory-game",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Redux implementation of Memory Game",
     "main": "index.js",
     "scripts": {
